@@ -1,0 +1,32 @@
+body {
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.titulo,
+.parrafo {    
+    font-family: arial;
+    width: 420px;    
+}
+.titulo{
+    margin:0%;
+    font-size: 19px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.parrafo {
+    padding-top: 5px;
+    padding-bottom: 25px;        
+    color: gray;
+    font-size: 16px;
+}
+p {
+    margin-top: 0;
+}
