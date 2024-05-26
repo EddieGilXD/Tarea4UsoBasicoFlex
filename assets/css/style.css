@@ -1,34 +1,60 @@
 body {
-
+    font-family: Helvetica;
 }
 .textUpperLeft {
-    font-family: Helvetica;
+    
     font-weight: bold;
 }
-.containerLogIn {
+
+.containerLogIn {    
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 500px;
     height: 500px;
-    margin-top: 300px;
-    margin-left: 750px;
+    margin:auto;
 }
+.signUp {
+    margin-top: 10px;
+}
+#textEmail {    
+    font-size: 14px;
+}
+
 .inputEmail {
-    width: 68%;   
+    width: 68%;     
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #7575A1;
+    opacity: 60%;
 }
-.emailButton {    
+.segundaOpcion {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 15px;;
+    opacity: 45%;
+}
+.emailButton { 
+    background-color: black;
+    color: white;   
     width: 70%;
+    height: 30px;
     padding-left: 2px;
     padding-right: 2px;
-    
+    margin-top: 10px;
+    border-radius: 5px;
 }
+
 .signupGoogle {    
     width: 70%;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
     justify-content: space-between;
-    min-width: 30%;   
-    
+    min-width: 25%;  
     
 }
 
@@ -44,6 +70,7 @@ body {
 
 .paragraphLogin {
     font-family: Helvetica;
+    margin-bottom: 0;
 }
 
 .container {
@@ -51,6 +78,20 @@ body {
     flex-direction: column;
     margin-left: 20px;
 }
+.termsOfService {
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+color: #7575A1;
+}
+
+.termsOfService span{
+    color: black;
+    font-weight: bold;
+}
+
+--------------------------------------
 .titulo,
 .parrafo {    
     font-family: arial;
