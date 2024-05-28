@@ -161,6 +161,11 @@ main .contactosContainer {
     color: #7575A1;
 }
 -----------------------------------------------------------
+.mainWorkPlace{
+    width: 720px;
+    height: 1080px;
+}
+
 .postContainer {
     display: flex;
     flex-grow:initial;
@@ -174,21 +179,31 @@ main .contactosContainer {
     width: 500px;
     height: 500px;    
 }
-.user{
-    height: 60px;
+.user{    
     width: 300px;
-    display: inline-block;
-    flex-direction: row;  
-    gap: 5px;  
+    height: 50px;
+    display: flex;
+    flex-direction: row;   
+    gap: 10px;
+    font-size: 14px;    
 }
 .user img {
-    border-radius: 50%;   
+    border-radius: 50%;  
     
 }
-.user .username {
-    display: inline-block;
-    height: 50px;
-    width: 25%;
+.usersInfo {
+    flex-grow: 50;
+    margin-top: 5px;
+    
+}
+.usersInfo p {
+    margin: 0;
+    
+}
+.action {
+    width: 100%;
+    height: 100%;
+    flex-grow: 10;
 }
 
 
